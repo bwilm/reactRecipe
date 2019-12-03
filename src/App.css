@@ -1,22 +1,82 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+  align-self: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 100px;  
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+input{
+  margin: 1em;
+  min-width: 200px;
+  min-height: 20px;
+  border-radius: 15px;
+}
+button{
+  border-radius: 15px;
+  min-width: 40px;
+  min-height: 50px;
+  margin: 0.5em;
+}
+
+.container{
+  min-height: 50vh;
+  min-width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  border: 2px solid lightgray;
+  border-radius: 15px;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+}
+
+.search-form{
+  margin: 1em;
+}
+
+
+ol{
+  list-style: none;
+  align-self: center;
+}
+
+.left-arrow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  margin: 2em;
+  font-size: 50px;
+}
+.right-arrow{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  margin: 2em;
+  font-size: 50px
 }
